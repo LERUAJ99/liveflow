@@ -17,7 +17,7 @@ function App() {
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 {data ? (
-                    <p>{data}</p> // Display the text data
+                    <p>{data}</p> // Display the text data here
                 ) : (
                     <p>Loading data...</p>
                 )}
